@@ -2,10 +2,12 @@
 
 partial class Program
 {
+    static partial void HelloFrom(string name);
+
     static void Main(string[] args)
     {
         HelloFrom("Hello World!");
-    }
 
-    static partial void HelloFrom(string name);
+        (double x1, double x2) = QuadraticNamespace.QuadraticClass.Calculate(1, -1, -12);
+    }
 }
