@@ -9,7 +9,7 @@ namespace Generator
     {
         public void Execute(GeneratorExecutionContext context)
         {
-            var sourceText = SourceText.From(@"
+            var sourceText = SourceText.From(@" // Auto-generated code
 namespace QuadraticNamespace
 {
     using System;
